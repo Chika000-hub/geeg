@@ -1,0 +1,227 @@
+// Place all the styles related to the tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.first-container{
+    background-color: aquamarine;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+}
+
+.form-group{
+    display: flex;
+}
+
+.kensak-container{
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  list-style: none;
+}
+
+.kensak-container h3{
+  padding-top: 10px;
+}
+
+.tweets-container{
+    margin-bottom: 40px;
+    margin-left: 35%;
+    margin-right: 20%;
+    
+}
+.link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+  .special-link {
+    color: #5993e9; /* 一意の色を設定 */
+    font-weight: bold; /* 一意のスタイルを追加 */
+    text-decoration: none; 
+  }
+
+  .aiueo{
+    display: flex;
+    gap:50px;
+    margin-left: 100px;
+  }
+
+  ul li{
+    list-style: none;
+  }
+
+.image1-container{
+    background-image: url(image1.jpeg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .image1-container header {
+    background-color: transparent;
+    height: 70px;
+    font-weight: bold;
+  }
+  
+  .image1-container header a {
+    color: white;
+    text-decoration: none; 
+    padding-left: 0%;
+  }
+
+  .image1-container header h1{
+    font-family: 'Bradley Hand',sans-serif;
+    font-size: 40px;
+  }
+
+
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  header ul {
+    display: flex;
+  }
+  header li {
+    list-style: none;
+    margin-right: 40px;
+    font-family: 'Bradley Hand',sans-serif;
+  }
+  
+  h3{
+      text-align: center;
+  }
+
+  .image1-script{
+    position: relative;
+    top: 60%;
+    left: 15%;
+    font-size: 55px;
+    font-family: 'Chalkboard SE',sans-serif;
+    text-shadow: 1px 1px 2px rgb(79, 75, 75);
+    color: rgb(235, 235, 213);
+  }
+
+.popular{
+  display: grid;
+  place-items: center;
+  padding-top: 200px;
+  background-color: #486592;
+  height: 100vh;
+}
+
+  .popular p{
+    text-align: center;
+    border: solid 2px rgb(25, 47, 118);
+    padding: 10px;
+    width: 300px;
+  }
+
+  .gazou-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .gazou-container ul{
+    padding-right: 100px;
+  }
+
+  li.item1 {
+    font-size: 30px;
+    font-style: italic;
+    
+  }
+  
+  /* スタイル2 */
+  li.item2 {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  header {
+    background-color: transparent;
+    height: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header a {
+    color: rgb(36, 42, 109);
+    text-decoration: none; 
+  }
+  header h1 {
+    margin-left: 40px;
+    font-family: 'Bradley Hand',sans-serif;
+      font-size: 40px;
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  header ul {
+    display: flex;
+  }
+  header li {
+    list-style: none;
+    margin-right: 40px;
+  }
+
+  
+  .link-container a:hover {
+    background-color: #B99b00;
+  }
+
+  .image2-container{
+    background-color: #384f73;
+  }
+
+  .image2-container p{
+    padding-left: 500px;
+    padding-top: 100px;
+    height: 100vh;
+  }
+
+  .back-link{
+    background-color: #ccd7ea;
+    height: 100vh;
+  }
+
+  .top-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    height: 100px;
+    font-size: 10px;
+  }
+
+ .top-link a{
+    padding: 0 10px;
+    height: 150px;
+    width: 200px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(20, 31, 53);
+    background-image: linear-gradient(to right, rgba(178, 165, 165, 0) 50%, rgb(148, 176, 188) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+    text-decoration: none;
+    }
+    
+ .top-link a:hover{
+    background-position: -100% 0;
+    color: #fff;
+    }

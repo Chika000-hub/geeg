@@ -1,0 +1,81 @@
+// Place all the styles related to the souvenirs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+header {
+  background-color: transparent;
+  height: 70px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: rgb(36, 42, 109);
+  text-decoration: none; 
+}
+header h1 {
+  margin-left: 40px;
+  font-family: 'Bradley Hand',sans-serif;
+    font-size: 40px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+.q1{
+ height: 100vh;
+ padding: 10%;
+}
+
+.col-12 p{
+    font-size: 50px;
+    color: #3c0a7d;
+    border-bottom: 2px solid #3c0a7d;
+    margin-bottom: 15px;
+}
+
+.col-6{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.col-6  input{
+	display: none;
+}
+
+.col-6 label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 300px;
+  height: 180px;
+	margin: 1px 0 1px 0;
+	padding: 1.4% 0 1.5% 0;
+	border-right: 1px solid #d7d7d7;
+	background: #e5e5e5;
+	color: #555e64;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+
+.radio02 label:last-of-type{
+	border-right: 0px;
+}
+.col-6 input[type="radio"]:checked + label {
+	background-color: #a1b91d;
+	color: #fff;
+}

@@ -1,0 +1,41 @@
+<div class="image1-container">
+    <header>
+        <h1><%= link_to "Tokyo Souvenir", root_path %></h1>
+    <div class="header-list">
+        <ul>
+            <li><%= link_to "log in", new_tweet_path %></li>
+         </ul>
+    </div>
+    </header>
+
+    <div class="image1-script">
+        Have you decided<br>
+        what you buy <br>
+        souveniors?
+    </div>
+</div>
+
+<div class="image2-container">
+    <p><%= image_tag "image6.jpeg", size: '900x600' %></p>
+    <h1></h1>
+</div>
+
+<div class="back-link">
+    <div class="top-link">
+        <%= link_to "Tweet一覧に戻る", tweets_path %>
+        <%= link_to "診断を始める", new_souvenir_path%>
+    </div>
+</div>
+
+<div class="popular">
+    <p>best-seiling item</p>
+    <div class="gazou-container">
+        <ul>
+            <li class="item1">aaaaa</li>
+            <li class="item2">bbb</li>
+        </ul>
+            <%= image_tag "image2.jpg", size: '200x200' %>
+    </div>
+</div>
+
+
