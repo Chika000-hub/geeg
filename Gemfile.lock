@@ -147,6 +147,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.3-x86_64-linux)
+      racc (~> 1.4)
     orm_adapter (0.5.0)
     pg (1.5.4)
     public_suffix (5.0.3)
@@ -229,6 +231,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-x86_64-darwin)
+    sqlite3 (1.6.3-x86_64-linux)
     ssrf_filter (1.1.2)
     thor (1.2.2)
     tilt (2.2.0)
@@ -264,6 +267,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
@@ -281,7 +285,7 @@ DEPENDENCIES
   sass-rails (>= 6)
   selenium-webdriver (>= 4.0.0.rc1)
   spring
-  sqlite3
+  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   web-console (>= 4.1.0)
   webdrivers
